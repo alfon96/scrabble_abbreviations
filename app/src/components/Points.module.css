@@ -1,0 +1,16 @@
+.totalPoints {
+  animation: animate-total-points infinite ease-in-out;
+}
+
+@keyframes animate-total-points {
+  0% {
+    transform: rotateZ(20deg);
+    background-color: blue;
+  }
+  60% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-20deg);
+  }
+}

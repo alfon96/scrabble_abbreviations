@@ -45,7 +45,7 @@ function App() {
           </Card.Title>
           <InputGroup className="mb-3 mt-4 w-75">
             <Form.Control
-              placeholder="Cerca abbreviazioni"
+              placeholder="ex. SPQR"
               aria-label="Cerca abbreviazioni"
               aria-describedby="button-search"
               className="text-center "
